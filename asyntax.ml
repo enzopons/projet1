@@ -3,7 +3,7 @@ Plus of exp | IN of exp | FLO of exp | Plusi of exp*exp
 | Multi of exp*exp | Moinsi of exp*exp | Divi of exp * exp| Mod of 
 exp*exp | Plusf of exp*exp | Multf of exp*exp | Moinsf of exp*exp ;;
 
-let rec bien_type expr = 
+let rec bien_typee expr = 
   let rec aux = function (*mettre le type stp La deuxieme composante vaut 1 si int et 0 si float *)
     | Int _ -> (true, 1)
     | Float _ -> (true, 0)
